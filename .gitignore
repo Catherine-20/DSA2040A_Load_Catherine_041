@@ -1,0 +1,12 @@
+# Ignore large data files
+*.db
+*.parquet
+*.csv
+
+# Keep small sample for GitHub
+!loaded/full_sample_1000.csv
+
+# System and cache files
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
